@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/style.css">
+    <title>Create data</title>
+</head>
+
+<body>
+    <nav>
+        <div class="unidel">
+            <a href="index.html" class="unidel-link">UNIDEL</a>
+            <div class="span"><i class="navber" onclick="toggleAside()" title="Menu">
+                    &equiv;</i></div>
+        </div>
+        <div class="nav-content" id="navContent">
+            <a href="#" class="nav-link">Application</a>
+            <div class="dropdown earth" style="background: none;"> <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">
+               <img src="media/earth.png" alt=""></a>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="https://unidel.waeup.org/students/D1000626/@@change_language?lang=en&amp;view_name=index">English</a>
+                 <a class="dropdown-content-link" href="https://unidel.waeup.org/students/D1000626/@@change_language?lang=fr&amp;view_name=index">Français</a>
+              <a class="dropdown-content-link" href="https://unidel.waeup.org/students/D1000626/@@change_language?lang=de&amp;view_name=index">Deutsch</a>
+              <a class="dropdown-content-link" href="https://unidel.waeup.org/students/D1000626/@@change_language?lang=ha&amp;view_name=index">Hausa</a>
+              <a class="dropdown-content-link" href="https://unidel.waeup.org/students/D1000626/@@change_language?lang=yo&amp;view_name=index">Yoruba</a>
+              <a class="dropdown-content-link" href="https://unidel.waeup.org/students/D1000626/@@change_language?lang=ig&amp;view_name=index">Igbo</a>
+                </div>
+            </div>
+            <a href="#" class="nav-link">Enquuiries</a>
+            <a href="login.php" class="nav-link">Login</a>
+        </div>
+    </nav>
+    <header>
+
+        <div class="home">
+            <h1 class="welcome">Create record</h1>
+            <br>
+            <form action="signup.php" method="post" id="form" enctype="multipart/form-data">
+                <div class="nat form-control">
+                    <label for="first_name">First Name</label>
+                    <input type="text" class="ntt" name="first_name" id="first_name">
+                </div>
+                <div class="nat form-control">
+                    <label for="middle_name">Middle Name</label>
+                    <input type="text" name="middle_name" id="middle_name">
+                </div>
+                <div class="nat form-control">
+                    <label for="surname">Surname</label>
+                    <input type="text" class="natts" name="surname" id="surname">
+                    </div>
+                <div class="nat form-control">
+                    <label for="gender" style="margin-left: 20px;" >Gender</label>
+                    <select name="gender" class="natt" id="gender">
+                        <option value=""></option>
+                        <option name="gender" value="Male">Male</option>
+                        <option name="gender" value="Female">Female</option>
+                    </select>
+                </div>
+                <div class="nat form-control">
+                    <label for="phone">Phone</label>
+                    <input type="tel" class="natt nttt" name="phone" id="phone" value="+123-">
+                </div>
+                <div class="nat form-control">
+                    <label for="date_birth">Date of Birth</label>
+                    <input type="date" name="date_birth" id="date_birth" required>
+                </div>
+                <div class="nat form-control">
+                    <label for="email">Email</label>
+                    <input class="nss" type="email" name="email" id="email" required>
+                </div>
+                <div class="nat form-control">
+                    <label for="file">Passport</label>
+                    <input type="file" class="natts" name="file_upload" id="file">
+                    </div>
+                <div class="nat form-control">
+                    <label for="confirm_code">Confirmation Code</label>
+                    <input type="text" name="confirm_code" placeholder="Please remember confirm code..." id="confirm_code">
+                </div>
+                    <input class="login" type="submit" value="Login">
+            </form>
+
+        </div>
+    </header>
+    <main>
+       
+        </main>
+    <footer>
+        <div class="main-content">
+            <p class="main-p">kofa-Student Management System <br> Copyright &copy; WAeUP Group 2022</p>
+        </div>
+    </footer>
+    <script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@import 'nav.css';
+@import 'home.css';
+@import 'login.css';
+
+#errors{
+    color: blue;
+    position: absolute;
+    color: rgba(237, 53, 53, 0.687);
+    background-color: gold;
+    margin-top: 140px;
+}

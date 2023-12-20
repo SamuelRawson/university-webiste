@@ -1,0 +1,119 @@
+
+form{
+    display: block;
+}
+#errors{
+    width: 80%; 
+    margin: 10px; 
+    margin-left: 20px;
+    position: absolute; 
+    height: 50px; 
+    background: hsla(0, 35%, 66%, 0.315);
+    border-radius: 5px; 
+    border: 1px solid #e79e9e;
+}
+#myss{
+    padding-top: 100px;
+}
+label{
+    margin: 20px 10px 3px 20px;
+    display: block;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+}
+input, select{
+    margin-left: 20px;
+    font-family: sans-serif;
+    width: 90%;   
+    height: 35px;
+    border-radius: 5px;
+    border: solid thin rgb(200, 200, 200);
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    padding: 5px 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+select{
+    width: 200px;
+}
+select:focus,input:focus{
+    box-shadow: 0 0 2px rgb(4, 21, 250);
+    outline: none;
+}
+.login{
+    width: 65px;
+    height: 33px;
+    border-style: solid;
+    margin: 20px;
+    margin-bottom: 30px;
+    color: white;
+    border: 3px solid black;
+    border: blue;
+    background-color: rgba(27, 63, 129, 0.781);
+}
+.wellcome{
+    margin-top: 30px;
+}
+.write-up{
+    margin-left: 15px;
+    padding: 5px;
+    font-family:  sans-serif;
+    font-size: 14px;
+}
+.init{
+    background: rgb(33, 163, 0);
+    color: white;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 12px;
+    border: none;
+    padding: 4px 6px;
+    font-family: sans-serif;
+}
+.form-control.success input{
+    border-color: #2ecc71;
+}
+.form-control.error input{
+    border-color: #e74c3c;
+}
+@media all and (min-width: 780px) {
+    .nat{
+        display: flex;
+    }
+    label{
+        display: flex;
+    }
+    input{
+        width:80%;
+        margin: 0 50px 30px 10px;
+    }
+    .natt{
+        margin-left: 43px;
+    }
+    .ntt{
+        margin-left: 20px;
+    }
+    .natts{
+        margin-left: 30px;
+    }
+    .nss{
+        margin-left: 50px;
+    }
+    .up{
+        margin-left: 130px;
+        margin-top: -33px;
+    }
+    
+}
+@media all and (min-width: 1000px){
+    .natt{
+        margin-left: 45px;
+    }
+    .natts{
+        margin-left: 36px;
+    }
+    .nttt{
+        margin-left: 40px;
+    }
+}
